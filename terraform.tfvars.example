@@ -1,0 +1,12 @@
+aws_region         = "us-east-2"
+cluster_name       = "lenses-training"
+cluster_version    = "1.33"
+vpc_cidr           = "10.0.0.0/16"
+node_instance_type = "m6i.4xlarge"
+node_min_size      = 6
+node_max_size      = 12
+node_desired_size  = 8
+domain_name        = "lenses.training"
+
+# Use existing Route53 zone (leave empty to create new)
+route53_zone_id    = "Z0XXXXXXXXXXXXXXXXX"
